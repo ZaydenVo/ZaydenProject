@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  border-bottom: 1px solid bisque;
+}
+
+.title {
+  color: rgb(241, 226, 155);
+  margin-bottom: 0px;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.username {
+  font-weight: 600;
+}
+
+.created {
+  font-size: 1.3rem;
+}
+
+.file {
+  width: 500px;
+  height: auto;
+}
+
+.content {
+  margin-right: 30px;
+}
+
+.seeMoreBtn {
+  background-color: transparent;
+  font-size: 1.4rem;
+  color: beige;
+  cursor: pointer;
+}
+
+.deletePost {
+  align-self: flex-end;
+  margin-right: 50px;
+}

@@ -1,0 +1,71 @@
+.loginPage {
+  display: flex;
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+}
+
+.form {
+  width: 450px;
+  min-height: 100px;
+  padding: 32px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: #383838;
+  border-radius: 8px;
+  margin: 24px;
+  align-self: center;
+  box-shadow: 4px 8px 10px rgba(125, 124, 124, 0.948);
+}
+
+.header {
+  font-size: 4rem;
+  margin-top: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+}
+
+.fieldTitle {
+  text-align: left;
+}
+
+.input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 20px;
+  border-radius: 20px;
+  background-color: rgb(37, 36, 36);
+  color: beige;
+}
+
+.formMessage {
+  text-align: left;
+  font-size: 14px;
+  font-style: italic;
+  color: red;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.button1 {
+  box-shadow: 4px 8px 10px rgba(34, 34, 34, 0.948);
+  padding: 18px 47px;
+}
+
+.button2 {
+  padding: 13px 40px;
+}

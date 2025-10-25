@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  padding: 20px 30px;
+}
+
+.avatarContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 500px;
+  height: auto;
+}
+
+.updateAvtBtn {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  line-height: 40px;
+  font-size: 1.8rem;
+}
+
+.fileInput {
+  border-radius: 5px;
+  background-color: rgba(179, 176, 176, 0.336);
+  color: bisque;
+  font-size: 1.6rem;
+}
+
+.submitBtn {
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 140px;
+}
+
+.userInfo {
+  padding-left: 50px;
+  line-height: 30px;
+}
+
+.button {
+  margin-top: 20px;
+  margin-left: 40px;
+}

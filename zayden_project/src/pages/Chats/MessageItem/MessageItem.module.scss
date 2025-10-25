@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  margin-top: 15px;
+  margin-right: 8px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.message {
+  padding: 4px 10px 6px 10px;
+  width: fit-content;
+  max-width: 60%;
+  background-color: rgba(135, 132, 132, 0.462);
+  border-radius: 8px;
+  margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+}
+
+.fieldTitle {
+  text-align: left;
+}
+
+.input,
+.select {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 15px;
+  border-radius: 20px;
+  background-color: rgb(37, 36, 36);
+  color: beige;
+}
+
+.select {
+  appearance: none;
+}
+
+.defaultSelect {
+  text-align: center;
+}
+
+.formMessage {
+  text-align: left;
+  font-size: 14px;
+  font-style: italic;
+  color: red;
+}

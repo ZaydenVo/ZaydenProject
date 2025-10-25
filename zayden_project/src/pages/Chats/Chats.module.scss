@@ -1,0 +1,125 @@
+.wrapper {
+  margin-top: 75px;
+  margin-left: 34px;
+  display: flex;
+  flex-direction: row;
+}
+
+.conversations {
+  width: 360px;
+  height: 735px;
+  background-color: #222222;
+  border-radius: 20px;
+}
+
+.header {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.searchConversations {
+}
+
+.search {
+  display: flex;
+  width: 300px;
+  height: 40px;
+  background-color: #333334;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-top: 8px;
+  padding-left: 20px;
+  padding-right: 35px;
+  color: bisque;
+
+  &:focus-within,
+  &:hover {
+    box-shadow: 0 0 0 1px rgba(221, 223, 223, 0.451);
+  }
+}
+
+.conversationItems {
+  overflow-y: auto;
+}
+
+.chatBlock {
+  display: flex;
+  flex-direction: column;
+  width: 1050px;
+  height: 735px;
+  border-radius: 20px;
+  margin-left: 30px;
+  background-color: #222222;
+}
+
+.conversationInfo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  margin-top: 8px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.deleteBtn {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column-reverse;
+  flex: 1;
+  overflow-y: auto;
+  margin-left: 20px;
+  margin: 20px 20px 70px 30px;
+}
+
+.message {
+  display: flex;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.me {
+  justify-content: flex-end;
+}
+
+.other {
+  justify-content: flex-start;
+}
+
+.chatFooter {
+  display: flex;
+  position: sticky;
+  bottom: 50px;
+}
+
+.messageInput {
+  display: flex;
+  height: 70px;
+  width: 920px;
+  resize: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #333334;
+  border-radius: 10px;
+  margin-top: 8px;
+  margin-left: 40px;
+  margin-right: 20px;
+  padding: 23px 35px 10px 20px;
+  color: bisque;
+  font-size: 1.8rem;
+}
+
+.sendBtn {
+  margin-top: 9px;
+  background-color: transparent;
+  color: bisque;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
