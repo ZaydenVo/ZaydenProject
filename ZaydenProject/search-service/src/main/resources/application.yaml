@@ -1,0 +1,21 @@
+server:
+  port: 8086
+  servlet:
+    context-path:
+
+spring:
+  application:
+    name: post-service
+
+logging:
+  level:
+    com.zayden.search_service.client.PostClient: DEBUG
+    org.springframework.web: DEBUG
+    feign: DEBUG
+
+app:
+  services:
+    profile:
+      url: http://localhost:8081/profile
+    post:
+      url: http://localhost:8083/post

@@ -1,0 +1,26 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /notification
+spring:
+  application:
+    name: notification-service
+  data:
+    mongodb:
+      uri: mongodb://root:123456@localhost:27017/notification-service?authSource=admin
+  kafka:
+    bootstrap-servers: localhost:9094
+    consumer:
+      group-id: notification-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+notification:
+  email:
+    brevo-url: http://api.brevo.com
+    brevo-apikey: <key>
+
+app:
+  api-key: "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"
