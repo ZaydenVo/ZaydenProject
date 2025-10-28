@@ -84,6 +84,7 @@ public class UserService {
         var user = userRepository.findById(userId).orElseThrow(() -> new AppException(ErrorCode.USER_NOT_EXISTED));
         userMapper.updateUser(user, request);
         user.setPassword(passwordEncoder.encode(request.getPassword()));
+        userRepository.save(user);
         return userMapper.toUserResponse(user);
     }
 
